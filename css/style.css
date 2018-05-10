@@ -1,0 +1,35 @@
+body {
+	background: linear-gradient(to right, #8d1cab, #f35fa1);
+	margin: 0;	
+}
+.cardInfo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.3125rem;
+	padding:10px;
+	border:0;
+	margin-bottom: 1.875rem;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+.btns {
+	background-color: #8d1cab;
+	border:0px;
+	width: 200px;
+	color: #fff;
+	padding: 8px;
+}
+.btns:hover {
+	background-color: #f35fa1;
+}
